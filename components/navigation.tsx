@@ -5,7 +5,7 @@ import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-export function Navigation() {
+const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -97,4 +97,5 @@ export function Navigation() {
   )
 }
 
+export { Navigation }
 export default Navigation
